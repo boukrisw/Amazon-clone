@@ -5,7 +5,7 @@ import "./Checkout.css";
 import CheckoutProduct from "./CheckoutProduct";
 import Subtotal from "./Subtotal";
 function Checkout() {
-  const [{ basket }] = useStateValue();
+  const [{ user, basket }] = useStateValue();
 
   return (
     <div className="checkout">
@@ -15,6 +15,7 @@ function Checkout() {
           src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
           alt=""
         />
+        <h2>Hello, {user ? user.email : "Guest"}</h2>
         {basket?.length === 0 ? (
           <div>
             <h2>Your Shopping Basket is empty</h2>
