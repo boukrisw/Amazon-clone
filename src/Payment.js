@@ -114,7 +114,7 @@ function Payment() {
           </div>
         </div>
 
-        <div className="payment__section">
+        {user && <div className="payment__section">
           <div className="payment__title">
             <h3>Payment Method</h3>
           </div>
@@ -139,7 +139,7 @@ function Payment() {
               {error && <div>{error}</div>}
             </form>
           </div>
-        </div>
+        </div>}
       </div>
     </div>
   );

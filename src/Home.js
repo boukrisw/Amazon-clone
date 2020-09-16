@@ -8,7 +8,7 @@ function Home() {
     <div className="home">
       <img
         className="home__image"
-        src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+        src="/Images/background.jpg"
         alt=""
       />
       {/*Product id,title,price, rating , image */}
@@ -18,14 +18,14 @@ function Home() {
           title="Nintendo Switch with Neon Blue and Neon Red Joy‑Con - HAC-001"
           price={359.99}
           rating={5}
-          image="https://images-na.ssl-images-amazon.com/images/I/61JnrafZ7zL._AC_SX355_.jpg"
+          image="/Images/nintendo.jpg"
         />
         <Product
           id="2"
           title='Apple 13.3" MacBook Pro with Touch Bar, Intel Core i5 Quad-Core, 8GB RAM, 128GB'
           price={1000}
           rating={5}
-          image="https://images-na.ssl-images-amazon.com/images/I/71i49M4hv2L._AC_SL1500_.jpg"
+          image="/Images/apple.jpg"
         />
       </div>
       <div className="home__row">
@@ -34,7 +34,7 @@ function Home() {
           title="BEZGAR 17 Toy Grade 1:14 Scale Remote Control Car"
           price={35.69}
           rating={4}
-          image="https://images-na.ssl-images-amazon.com/images/I/81vDYgWlQ1L._AC_SL1500_.jpg"
+          image="Images/apple.jpg"
         />
       </div>
       <div className="home__row">
@@ -43,14 +43,14 @@ function Home() {
           title="Blendtec Total Classic Original Blender"
           price={275.77}
           rating={4}
-          image="https://images-na.ssl-images-amazon.com/images/I/71zrQU%2ByLvL._AC_SL1500_.jpg"
+          image="/Images/Blendtec.jpg"
         />
         <Product
           id="6"
           title="Jenga Classic Game"
           price={89.99}
           rating={5}
-          image="https://images-na.ssl-images-amazon.com/images/I/81OAWwX3djL._AC_SY879_.jpg"
+          image="/Images/Jenga.jpg"
         />
       </div>
     </div>
